@@ -73,8 +73,8 @@ function App() {
           <img
             src={`${
               theme.theme === "dark"
-                ? "./images/icon-moon.svg"
-                : "./images/icon-sun.svg"
+                ? "./images/icon-sun.svg"
+                : "./images/icon-moon.svg"
             }`}
             alt=""
             className="cursor-pointer"
