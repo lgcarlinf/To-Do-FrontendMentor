@@ -81,11 +81,7 @@ function App() {
             onClick={toggleTheme}
           />
         </div>
-        <form
-          action=""
-          className="w-full max-w-[550px] mx-auto"
-          onSubmit={handleSubmit}
-        >
+        <form className="w-full max-w-[550px] mx-auto" onSubmit={handleSubmit}>
           <div className="flex relative mt-6 w-full">
             <div
               className={`flex justify-center items-center cursor-pointer absolute rounded-full border-[1px] ${
