@@ -71,7 +71,11 @@ function App() {
         <div className="flex justify-between items-center w-full max-w-[550px] mx-auto h-full ">
           <h1 className="text-white text-3xl">TODO</h1>
           <img
-            src="../public/images/icon-moon.svg"
+            src={`${
+              theme.theme === "dark"
+                ? "./images/icon-moon.svg"
+                : "./images/icon-sun.svg"
+            }`}
             alt=""
             className="cursor-pointer"
             onClick={toggleTheme}

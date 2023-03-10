@@ -15,7 +15,7 @@ const themes = {
     notes: "bg-[#25273d]",
     textColor: "text-[#c8cae1]",
     theme: "dark",
-    image: "bg-[url('../public/images/bg-desktop-dark.jpg')]",
+    image: "bg-[url('./images/bg-desktop-dark.jpg')]",
   },
 };
 
